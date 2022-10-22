@@ -148,7 +148,7 @@ pdf.multi_cell(pdf.w - (pdf.l_margin*2) , 5, "All fiat values and prices are in 
 
 # pdf.left_para(heading_name="This report may be used for tax purposes after it has been checked for accuracy and completeness by yourself or your", heading_font_size=10)
 # pdf.left_para(heading_name="tax advisor.", heading_font_size=10)
-###################################
+################################### 
 
 pdf.output("first.pdf")
 print("File saved")
